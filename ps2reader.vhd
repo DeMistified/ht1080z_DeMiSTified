@@ -66,16 +66,16 @@ signal cnt: integer range 0 to 7:=0;               -- counter
 --described in the constant declarations above.
 
 attribute fsm_extract : string;
-attribute fsm_extract of state: signal is "no"; 
-attribute fsm_extract of next_state: signal is "no"; 
+--attribute fsm_extract of state: signal is "no"; 
+--attribute fsm_extract of next_state: signal is "no"; 
 
 attribute fsm_encoding : string;
 attribute fsm_encoding of state: signal is "user"; 
 attribute fsm_encoding of next_state: signal is "user"; 
 
 attribute signal_encoding : string;
-attribute signal_encoding of state: signal is "user"; 
-attribute signal_encoding of next_state: signal is "user";
+--attribute signal_encoding of state: signal is "user"; 
+--attribute signal_encoding of next_state: signal is "user";
 
 begin
 

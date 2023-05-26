@@ -1,0 +1,344 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Intel and sold by Intel or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Fri May 26 21:53:59 2023
+Info: Command: quartus_sh -t ..//DeMiSTify/Scripts/compile.tcl -project HT1080Z -board neptuno
+Info: Quartus(args): -project HT1080Z -board neptuno
+Project: HT1080Z_neptuno
+Target: neptuno
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Processing started: Fri May 26 21:54:00 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HT1080Z_neptuno -c HT1080Z_neptuno
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 4 design units, including 2 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd
+    Info (12022): Found design unit 1: dac_if-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 34
+    Info (12022): Found design unit 2: audio_top-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 97
+    Info (12023): Found entity 1: dac_if File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 24
+    Info (12023): Found entity 2: audio_top File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 85
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/joydecoder.v
+    Info (12023): Found entity 1: joydecoder File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/joydecoder.v Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file neptuno_top.vhd
+    Info (12022): Found design unit 1: neptuno_top-RTL File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 76
+    Info (12023): Found entity 1: neptuno_top File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/videoctrl.vhd
+    Info (12022): Found design unit 1: videoctrl-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/videoctrl.vhd Line: 76
+    Info (12023): Found entity 1: videoctrl File: /mnt/Teradisk/SOMHIC/ht1080z/videoctrl.vhd Line: 46
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd
+    Info (12022): Found design unit 1: YM2149-RTL File: /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd Line: 92
+    Info (12023): Found entity 1: YM2149 File: /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd Line: 62
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/sdram.v
+    Info (12023): Found entity 1: sdram File: /mnt/Teradisk/SOMHIC/ht1080z/sdram.v Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/rom16k.vhd
+    Info (12022): Found design unit 1: rom16k-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/rom16k.vhd Line: 14
+    Info (12023): Found entity 1: rom16k File: /mnt/Teradisk/SOMHIC/ht1080z/rom16k.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/ram16k.vhd
+    Info (12022): Found design unit 1: ram16k-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/ram16k.vhd Line: 14
+    Info (12023): Found entity 1: ram16k File: /mnt/Teradisk/SOMHIC/ht1080z/ram16k.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/ps2reader.vhd
+    Info (12022): Found design unit 1: ps2reader-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/ps2reader.vhd Line: 34
+    Info (12023): Found entity 1: ps2reader File: /mnt/Teradisk/SOMHIC/ht1080z/ps2reader.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd
+    Info (12022): Found design unit 1: ps2kbd-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 66
+    Info (12023): Found entity 1: ps2kbd File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 48
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd
+    Info (12022): Found design unit 1: ht1080z-Behavioral File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 83
+    Info (12023): Found entity 1: ht1080z File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 48
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd
+    Info (12022): Found design unit 1: pll-SYN File: /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd Line: 52
+    Info (12023): Found entity 1: pll File: /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80s.vhd
+    Info (12022): Found design unit 1: T80s-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80s.vhd Line: 101
+    Info (12023): Found entity 1: T80s File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80s.vhd Line: 72
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80pa.vhd
+    Info (12022): Found design unit 1: T80pa-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80pa.vhd Line: 91
+    Info (12023): Found entity 1: T80pa File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80pa.vhd Line: 60
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_Reg.vhd
+    Info (12022): Found design unit 1: T80_Reg-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_Reg.vhd Line: 98
+    Info (12023): Found entity 1: T80_Reg File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_Reg.vhd Line: 75
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_MCode.vhd
+    Info (12022): Found design unit 1: T80_MCode-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_MCode.vhd Line: 150
+    Info (12023): Found entity 1: T80_MCode File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_MCode.vhd Line: 78
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_ALU.vhd
+    Info (12022): Found design unit 1: T80_ALU-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_ALU.vhd Line: 102
+    Info (12023): Found entity 1: T80_ALU File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80_ALU.vhd Line: 74
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd
+    Info (12022): Found design unit 1: T80-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd Line: 128
+    Info (12023): Found entity 1: T80 File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd Line: 83
+Info (12021): Found 1 design units, including 0 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist.vhd
+    Info (12022): Found design unit 1: mist File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist.vhd Line: 12
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/user_io.v
+    Info (12023): Found entity 1: user_io File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/user_io.v Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/data_io.v
+    Info (12023): Found entity 1: data_io File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/data_io.v Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v
+    Info (12023): Found entity 1: mist_video File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/scandoubler.v
+    Info (12023): Found entity 1: scandoubler File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/scandoubler.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/osd.v
+    Info (12023): Found entity 1: osd File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/osd.v Line: 4
+Info (12021): Found 3 design units, including 3 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/arcade_inputs.v
+    Info (12023): Found entity 1: arcade_inputs File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/arcade_inputs.v Line: 4
+    Info (12023): Found entity 2: control_rotator File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/arcade_inputs.v Line: 152
+    Info (12023): Found entity 3: input_toggle File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/arcade_inputs.v Line: 170
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/rgb2ypbpr.sv
+    Info (12023): Found entity 1: rgb2ypbpr File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/rgb2ypbpr.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/cofi.sv
+    Info (12023): Found entity 1: cofi File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/cofi.sv Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/dac.vhd
+    Info (12022): Found design unit 1: dac-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/dac.vhd Line: 33
+    Info (12023): Found entity 1: dac File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/dac.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd
+    Info (12022): Found design unit 1: substitute_mcu-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 83
+    Info (12023): Found entity 1: substitute_mcu File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 24
+Info (12021): Found 1 design units, including 0 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_pkg.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_pkg File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_pkg.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_alu-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd Line: 50
+    Info (12023): Found entity 1: eightthirtytwo_alu File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_shifter-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd Line: 45
+    Info (12023): Found entity 1: eightthirtytwo_shifter File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_aligner-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd Line: 36
+    Info (12023): Found entity 1: eightthirtytwo_aligner File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_aligner_le-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd Line: 38
+    Info (12023): Found entity 1: eightthirtytwo_aligner_le File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_decode-behavoural File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd Line: 38
+    Info (12023): Found entity 1: eightthirtytwo_decode File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_fetchloadstore-behavioural File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 79
+    Info (12023): Found entity 1: eightthirtytwo_fetchloadstore File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 28
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_hazard-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd Line: 60
+    Info (12023): Found entity 1: eightthirtytwo_hazard File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_debug-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd Line: 53
+    Info (12023): Found entity 1: eightthirtytwo_debug File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_cpu-behavoural File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 59
+    Info (12023): Found entity 1: eightthirtytwo_cpu File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd
+    Info (12022): Found design unit 1: debug_bridge_jtag-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd Line: 39
+    Info (12023): Found entity 1: debug_bridge_jtag File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd
+    Info (12022): Found design unit 1: debug_virtualjtag-SYN File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd Line: 62
+    Info (12023): Found entity 1: debug_virtualjtag File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd
+    Info (12022): Found design unit 1: debug_fifo-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd Line: 28
+    Info (12023): Found entity 1: debug_fifo File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd
+    Info (12022): Found design unit 1: controller_rom-arch File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/simple_uart.vhd
+    Info (12022): Found design unit 1: simple_uart-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/simple_uart.vhd Line: 37
+    Info (12023): Found entity 1: simple_uart File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/simple_uart.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/jtag_uart.vhd
+    Info (12022): Found design unit 1: jtag_uart-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/jtag_uart.vhd Line: 35
+    Info (12023): Found entity 1: jtag_uart File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/jtag_uart.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/io_ps2_com.vhd
+    Info (12022): Found design unit 1: io_ps2_com-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/io_ps2_com.vhd Line: 80
+    Info (12023): Found entity 1: io_ps2_com File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/io_ps2_com.vhd Line: 54
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/interrupt_controller.vhd
+    Info (12022): Found design unit 1: interrupt_controller-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/interrupt_controller.vhd Line: 35
+    Info (12023): Found entity 1: interrupt_controller File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/interrupt_controller.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/timer_controller.vhd
+    Info (12022): Found design unit 1: timer_controller-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/timer_controller.vhd Line: 43
+    Info (12023): Found entity 1: timer_controller File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/timer_controller.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/spi_controller.vhd
+    Info (12022): Found design unit 1: spi_controller-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/spi_controller.vhd Line: 43
+    Info (12023): Found entity 1: spi_controller File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/spi_controller.vhd Line: 23
+Info (12021): Found 1 design units, including 0 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/demistify_config_pkg.vhd
+    Info (12022): Found design unit 1: demistify_config_pkg File: /mnt/Teradisk/SOMHIC/ht1080z/demistify_config_pkg.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom1_byte.vhd
+    Info (12022): Found design unit 1: controller_rom1-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom1_byte.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom1 File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom1_byte.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd
+    Info (12022): Found design unit 1: controller_rom2-rtl File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom2 File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 6
+Info (15248): File "/mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom1_byte.vhd" is a duplicate of already analyzed file "/mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom1_byte.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom1_byte.vhd
+Info (15248): File "/mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom2_byte.vhd" is a duplicate of already analyzed file "/mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom2_byte.vhd
+Info (12127): Elaborating entity "neptuno_top" for the top level hierarchy
+Warning (10540): VHDL Signal Declaration warning at neptuno_top.vhd(63): used explicit default value for signal "JOYP7_O" because signal was never assigned a value File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 63
+Warning (10540): VHDL Signal Declaration warning at neptuno_top.vhd(70): used explicit default value for signal "STM_RX_O" because signal was never assigned a value File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 70
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(80): object "reset_n" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 80
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(110): object "intercept" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 110
+Warning (10541): VHDL Signal Declaration warning at neptuno_top.vhd(120): used implicit default value for signal "rs232_rxd" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 120
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(121): object "rs232_txd" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 121
+Warning (10541): VHDL Signal Declaration warning at neptuno_top.vhd(130): used implicit default value for signal "dac_l" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 130
+Warning (10541): VHDL Signal Declaration warning at neptuno_top.vhd(131): used implicit default value for signal "dac_r" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 131
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(138): object "i2s_mclk" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 138
+Warning (10541): VHDL Signal Declaration warning at neptuno_top.vhd(190): used implicit default value for signal "act_led" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 190
+Info (12128): Elaborating entity "joydecoder" for hierarchy "joydecoder:joy" File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 227
+Info (12128): Elaborating entity "audio_top" for hierarchy "audio_top:audio_i2s" File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 256
+Info (12128): Elaborating entity "dac_if" for hierarchy "audio_top:audio_i2s|dac_if:dac" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 147
+Info (12128): Elaborating entity "ht1080z" for hierarchy "ht1080z:guest" File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 274
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(170): object "MPS2CLK" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 170
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(171): object "MPS2DAT" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 171
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(173): object "joy0" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 173
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(174): object "joy1" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 174
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(193): object "romrd" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 193
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(193): object "ramrd" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 193
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(193): object "ramwr" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 193
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(205): object "pclk" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 205
+Warning (10036): Verilog HDL or VHDL warning at ht1080z.vhd(214): object "oddline" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 214
+Info (12128): Elaborating entity "pll" for hierarchy "ht1080z:guest|pll:clkmgr" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 223
+Info (12128): Elaborating entity "altpll" for hierarchy "ht1080z:guest|pll:clkmgr|altpll:altpll_component" File: /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd Line: 138
+Info (12130): Elaborated megafunction instantiation "ht1080z:guest|pll:clkmgr|altpll:altpll_component" File: /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd Line: 138
+Info (12133): Instantiated megafunction "ht1080z:guest|pll:clkmgr|altpll:altpll_component" with the following parameter: File: /mnt/Teradisk/SOMHIC/ht1080z/pll.vhd Line: 138
+    Info (12134): Parameter "bandwidth_type" = "AUTO"
+    Info (12134): Parameter "clk0_divide_by" = "9"
+    Info (12134): Parameter "clk0_duty_cycle" = "50"
+    Info (12134): Parameter "clk0_multiply_by" = "14"
+    Info (12134): Parameter "clk0_phase_shift" = "0"
+    Info (12134): Parameter "compensate_clock" = "CLK0"
+    Info (12134): Parameter "inclk0_input_frequency" = "37037"
+    Info (12134): Parameter "intended_device_family" = "Cyclone III"
+    Info (12134): Parameter "lpm_hint" = "CBX_MODULE_PREFIX=pll"
+    Info (12134): Parameter "lpm_type" = "altpll"
+    Info (12134): Parameter "operation_mode" = "NORMAL"
+    Info (12134): Parameter "pll_type" = "AUTO"
+    Info (12134): Parameter "port_activeclock" = "PORT_UNUSED"
+    Info (12134): Parameter "port_areset" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkbad0" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkbad1" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkloss" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkswitch" = "PORT_UNUSED"
+    Info (12134): Parameter "port_configupdate" = "PORT_UNUSED"
+    Info (12134): Parameter "port_fbin" = "PORT_UNUSED"
+    Info (12134): Parameter "port_inclk0" = "PORT_USED"
+    Info (12134): Parameter "port_inclk1" = "PORT_UNUSED"
+    Info (12134): Parameter "port_locked" = "PORT_USED"
+    Info (12134): Parameter "port_pfdena" = "PORT_UNUSED"
+    Info (12134): Parameter "port_phasecounterselect" = "PORT_UNUSED"
+    Info (12134): Parameter "port_phasedone" = "PORT_UNUSED"
+    Info (12134): Parameter "port_phasestep" = "PORT_UNUSED"
+    Info (12134): Parameter "port_phaseupdown" = "PORT_UNUSED"
+    Info (12134): Parameter "port_pllena" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scanaclr" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scanclk" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scanclkena" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scandata" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scandataout" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scandone" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scanread" = "PORT_UNUSED"
+    Info (12134): Parameter "port_scanwrite" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clk0" = "PORT_USED"
+    Info (12134): Parameter "port_clk1" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clk2" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clk3" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clk4" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clk5" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena0" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena1" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena2" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena3" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena4" = "PORT_UNUSED"
+    Info (12134): Parameter "port_clkena5" = "PORT_UNUSED"
+    Info (12134): Parameter "port_extclk0" = "PORT_UNUSED"
+    Info (12134): Parameter "port_extclk1" = "PORT_UNUSED"
+    Info (12134): Parameter "port_extclk2" = "PORT_UNUSED"
+    Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
+    Info (12134): Parameter "self_reset_on_loss_lock" = "OFF"
+    Info (12134): Parameter "width_clock" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/pll_altpll.v
+    Info (12023): Found entity 1: pll_altpll File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/db/pll_altpll.v Line: 30
+Info (12128): Elaborating entity "pll_altpll" for hierarchy "ht1080z:guest|pll:clkmgr|altpll:altpll_component|pll_altpll:auto_generated" File: /mnt/Teradisk/Quartus/quartus/libraries/megafunctions/altpll.tdf Line: 898
+Info (12128): Elaborating entity "T80s" for hierarchy "ht1080z:guest|T80s:cpu" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 253
+Info (12128): Elaborating entity "T80" for hierarchy "ht1080z:guest|T80s:cpu|T80:u0" File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80s.vhd Line: 113
+Info (12128): Elaborating entity "T80_MCode" for hierarchy "ht1080z:guest|T80s:cpu|T80:u0|T80_MCode:mcode" File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd Line: 265
+Info (12128): Elaborating entity "T80_ALU" for hierarchy "ht1080z:guest|T80s:cpu|T80:u0|T80_ALU:alu" File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd Line: 333
+Info (12128): Elaborating entity "T80_Reg" for hierarchy "ht1080z:guest|T80s:cpu|T80:u0|T80_Reg:Regs" File: /mnt/Teradisk/SOMHIC/ht1080z/t80/T80.vhd Line: 932
+Info (12128): Elaborating entity "videoctrl" for hierarchy "ht1080z:guest|videoctrl:video" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 289
+Warning (10036): Verilog HDL or VHDL warning at videoctrl.vhd(367): object "pxclk" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/videoctrl.vhd Line: 367
+Warning (10036): Verilog HDL or VHDL warning at videoctrl.vhd(369): object "xpxclk" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/videoctrl.vhd Line: 369
+Info (12128): Elaborating entity "ps2kbd" for hierarchy "ht1080z:guest|ps2kbd:kbd" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 314
+Warning (10036): Verilog HDL or VHDL warning at ps2kbd.vhd(71): object "extkey" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 71
+Warning (10631): VHDL Process Statement warning at ps2kbd.vhd(101): inferring latch(es) for signal or variable "keybits", which holds its previous value in one or more paths through the process File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][1]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][2]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][3]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][4]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][5]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][6]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[7][7]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (10041): Inferred latch for "keybits[3][3]" at ps2kbd.vhd(101) File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 101
+Info (12128): Elaborating entity "ps2reader" for hierarchy "ht1080z:guest|ps2kbd:kbd|ps2reader:ps2rd" File: /mnt/Teradisk/SOMHIC/ht1080z/ps2kbd.vhd Line: 91
+Info (12128): Elaborating entity "YM2149" for hierarchy "ht1080z:guest|YM2149:soundchip" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 334
+Warning (10492): VHDL Process Statement warning at YM2149_linmix.vhd(293): signal "ioa_inreg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd Line: 293
+Warning (10492): VHDL Process Statement warning at YM2149_linmix.vhd(298): signal "iob_inreg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd Line: 298
+Warning (10492): VHDL Process Statement warning at YM2149_linmix.vhd(447): signal "reg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /mnt/Teradisk/SOMHIC/ht1080z/YM2149_linmix.vhd Line: 447
+Info (12128): Elaborating entity "dac" for hierarchy "ht1080z:guest|dac:audiodac" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 366
+Info (12128): Elaborating entity "user_io" for hierarchy "ht1080z:guest|user_io:user_io" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 404
+Info (12128): Elaborating entity "mist_video" for hierarchy "ht1080z:guest|mist_video:mist_video" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 432
+Info (12128): Elaborating entity "scandoubler" for hierarchy "ht1080z:guest|mist_video:mist_video|scandoubler:scandoubler" File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v Line: 125
+Info (12128): Elaborating entity "osd" for hierarchy "ht1080z:guest|mist_video:mist_video|osd:osd" File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v Line: 147
+Info (12128): Elaborating entity "cofi" for hierarchy "ht1080z:guest|mist_video:mist_video|cofi:cofi" File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v Line: 167
+Info (12128): Elaborating entity "rgb2ypbpr" for hierarchy "ht1080z:guest|mist_video:mist_video|rgb2ypbpr:rgb2ypbpr" File: /mnt/Teradisk/SOMHIC/ht1080z/mist-modules/mist_video.v Line: 179
+Info (12128): Elaborating entity "sdram" for hierarchy "ht1080z:guest|sdram:sdram_inst" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 460
+Info (12128): Elaborating entity "data_io" for hierarchy "ht1080z:guest|data_io:dataio" File: /mnt/Teradisk/SOMHIC/ht1080z/ht1080z.vhd Line: 491
+Info (12128): Elaborating entity "substitute_mcu" for hierarchy "substitute_mcu:controller" File: /mnt/Teradisk/SOMHIC/ht1080z/neptuno/neptuno_top.vhd Line: 342
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(150): object "timer_reg_req" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 150
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(151): object "timer_tick" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 151
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(197): object "flushcaches" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 197
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(201): object "debug_req" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 201
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(203): object "debug_fromcpu" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 203
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(205): object "debug_wr" assigned a value but never read File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 205
+Info (12128): Elaborating entity "simple_uart" for hierarchy "substitute_mcu:controller|simple_uart:\genuart:myuart" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 295
+Info (12128): Elaborating entity "io_ps2_com" for hierarchy "substitute_mcu:controller|io_ps2_com:mykeyboard" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 318
+Info (12128): Elaborating entity "spi_controller" for hierarchy "substitute_mcu:controller|spi_controller:spi" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 389
+Info (12128): Elaborating entity "interrupt_controller" for hierarchy "substitute_mcu:controller|interrupt_controller:intcontroller" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 418
+Info (12128): Elaborating entity "controller_rom" for hierarchy "substitute_mcu:controller|controller_rom:rom" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/controller/substitute_mcu.vhd Line: 440
+Info (12128): Elaborating entity "controller_rom1" for hierarchy "substitute_mcu:controller|controller_rom:rom|controller_rom1:rom1" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd Line: 41
+Info (12128): Elaborating entity "controller_rom2" for hierarchy "substitute_mcu:controller|controller_rom:rom|controller_rom2:rom2" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd Line: 56
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1058): choice "1024" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1058
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1059): choice "1025" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1059
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1060): choice "1026" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1060
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1061): choice "1027" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1061
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1062): choice "1028" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1062
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1063): choice "1029" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1063
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1064): choice "1030" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1064
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1065): choice "1031" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1065
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1066): choice "1032" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1066
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1067): choice "1033" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1067
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1068): choice "1034" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1068
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1069): choice "1035" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1069
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1070): choice "1036" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1070
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1071): choice "1037" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1071
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1072): choice "1038" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1072
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1073): choice "1039" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1073
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1074): choice "1040" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1074
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1075): choice "1041" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1075
+Error (10320): VHDL aggregate error at controller_rom2_byte.vhd(1076): choice "1042" must belong to index subtype of array aggregate File: /mnt/Teradisk/SOMHIC/ht1080z/firmware/controller_rom2_byte.vhd Line: 1076
+Error (12152): Can't elaborate user hierarchy "substitute_mcu:controller|controller_rom:rom|controller_rom2:rom2" File: /mnt/Teradisk/SOMHIC/ht1080z/DeMiSTify/firmware/controller_rom.vhd Line: 56
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 20 errors, 32 warnings
+    Error: Peak virtual memory: 1014 megabytes
+    Error: Processing ended: Fri May 26 21:54:10 2023
+    Error: Elapsed time: 00:00:10
+    Error: Total CPU time (on all processors): 00:00:22
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 22 errors, 32 warnings
+Error (23031): Evaluation of Tcl script ..//DeMiSTify/Scripts/compile.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 27 errors, 32 warnings
+    Error: Peak virtual memory: 773 megabytes
+    Error: Processing ended: Fri May 26 21:54:11 2023
+    Error: Elapsed time: 00:00:12
+    Error: Total CPU time (on all processors): 00:00:24
